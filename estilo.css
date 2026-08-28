@@ -1,0 +1,33 @@
+body {
+    background-color: #3b5aad;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px; /* Considere usar 100vh se quiser ocupar a tela inteira */
+    margin: 0;
+}
+   
+button {
+    background-color: rgb(15, 218, 218);
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif; /* Corrigido de ; para , e adicionado ; no final */
+}
+   
+.passo {
+    display: none;
+}
+   
+.passo.ativo {
+    display: block;
+}
+   
+main {
+    text-align: center;
+    max-width: 90%;
+}
+   
+img {
+    max-width: 90%;
+}
